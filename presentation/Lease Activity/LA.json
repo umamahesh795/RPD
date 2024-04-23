@@ -209,7 +209,7 @@
       "name" : "Opex By Nrsf",
       "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Opex By Nrsf"
     }, {
-      "name" : "Absolute Nrsf",
+      "name" : "Absolute NRSF",
       "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Absolute Nrsf"
     }, {
       "name" : "Annualized Free Rent",
