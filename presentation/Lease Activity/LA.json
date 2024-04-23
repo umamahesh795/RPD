@@ -11,7 +11,7 @@
       "name" : "Property WID",
       "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Property Wid"
     }, {
-      "name" : "Opportunity Wid",
+      "name" : "Opportunity W",
       "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Opportunity Wid"
     }, {
       "name" : "Lease Activity Wid",
