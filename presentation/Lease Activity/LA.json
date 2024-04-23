@@ -8,7 +8,7 @@
       "name" : "Customer WID",
       "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Customer Wid"
     }, {
-      "name" : "Property Wid",
+      "name" : "Property WID",
       "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Property Wid"
     }, {
       "name" : "Opportunity Wid",
@@ -209,7 +209,7 @@
       "name" : "Opex By Nrsf",
       "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Opex By Nrsf"
     }, {
-      "name" : "Absolute NRSF",
+      "name" : "Absolute Nrsf",
       "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Absolute Nrsf"
     }, {
       "name" : "Annualized Free Rent",
