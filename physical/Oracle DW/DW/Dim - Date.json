@@ -1,0 +1,7 @@
+{
+   "physicalTable": {
+      "name": "Dim - Date",
+      "sourceTable": "physicalTable:Oracle DW.DW.VW_DATE_D",
+      "overrideSourceCacheSetting": false
+   }
+}

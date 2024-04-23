@@ -1,0 +1,11 @@
+{
+  "subjectArea" : {
+    "name" : "Lease Activity",
+    "sourceBusinessModel" : "businessModel:DW",
+    "tableOrder" : [ {
+      "name" : "presentationTable:Lease Activity.LA"
+    }, {
+      "name" : "presentationTable:Lease Activity.Property"
+    } ]
+  }
+}

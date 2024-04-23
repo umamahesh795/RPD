@@ -1,0 +1,7 @@
+{
+  "physicalTable" : {
+    "name" : "Dim-Property",
+    "sourceTable" : "physicalTable:Oracle DW.DW.VW_PROPERTY_D",
+    "overrideSourceCacheSetting" : false
+  }
+}

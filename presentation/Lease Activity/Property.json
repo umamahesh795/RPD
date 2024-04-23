@@ -1,0 +1,282 @@
+{
+  "presentationTable" : {
+    "name" : "Property",
+    "presentationColumns" : [ {
+      "name" : "Row Wid",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Row Wid"
+    }, {
+      "name" : "Property Src Key",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Property Src Key"
+    }, {
+      "name" : "Live Flag",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Live Flag"
+    }, {
+      "name" : "Leaf Level",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Leaf Level"
+    }, {
+      "name" : "Suite",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Suite"
+    }, {
+      "name" : "Suite Type",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Suite Type"
+    }, {
+      "name" : "Building",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Building"
+    }, {
+      "name" : "Floor",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Floor"
+    }, {
+      "name" : "Floor Src Key",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Floor Src Key"
+    }, {
+      "name" : "Suite Src Key",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Suite Src Key"
+    }, {
+      "name" : "Building Src Key",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Building Src Key"
+    }, {
+      "name" : "Property Type",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Property Type"
+    }, {
+      "name" : "Property Code",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Property Code"
+    }, {
+      "name" : "Property Name",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Property Name"
+    }, {
+      "name" : "Address1",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Address1"
+    }, {
+      "name" : "Address2",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Address2"
+    }, {
+      "name" : "City",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.City"
+    }, {
+      "name" : "State",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.State"
+    }, {
+      "name" : "Country",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Country"
+    }, {
+      "name" : "Zip Postal Code",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Zip Postal Code"
+    }, {
+      "name" : "Acquired Date",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Acquired Date"
+    }, {
+      "name" : "Legal Entity",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Legal Entity"
+    }, {
+      "name" : "Longitude",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Longitude"
+    }, {
+      "name" : "Latitude",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Latitude"
+    }, {
+      "name" : "Same Store",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Same Store"
+    }, {
+      "name" : "Domestic Intrl",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Domestic Intrl"
+    }, {
+      "name" : "Stabilization Date",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Stabilization Date"
+    }, {
+      "name" : "Stabilized Current Year",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Stabilized Current Year"
+    }, {
+      "name" : "Stabilized Next Year",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Stabilized Next Year"
+    }, {
+      "name" : "Disposition Date",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Disposition Date"
+    }, {
+      "name" : "Global Market",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Global Market"
+    }, {
+      "name" : "L1 Market",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.L1 Market"
+    }, {
+      "name" : "L2 Market",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.L2 Market"
+    }, {
+      "name" : "L3 Market",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.L3 Market"
+    }, {
+      "name" : "Market",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Market"
+    }, {
+      "name" : "Region",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Region"
+    }, {
+      "name" : "Ownership Type",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Ownership Type"
+    }, {
+      "name" : "Leased Owned",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Leased Owned"
+    }, {
+      "name" : "Source Currency Property",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Source Currency Property"
+    }, {
+      "name" : "Hris Division",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Hris Division"
+    }, {
+      "name" : "Elt",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Elt"
+    }, {
+      "name" : "Division",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Division"
+    }, {
+      "name" : "Entity Type",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Entity Type"
+    }, {
+      "name" : "Country Code",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Country Code"
+    }, {
+      "name" : "Ownership Percent",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Ownership Percent"
+    }, {
+      "name" : "Portfolio Ownership Percentage",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Portfolio Ownership Percentage"
+    }, {
+      "name" : "Line Of Business",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Line Of Business"
+    }, {
+      "name" : "Property Manager",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Property Manager"
+    }, {
+      "name" : "Data Center Manager",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Data Center Manager"
+    }, {
+      "name" : "Externally Reported",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Externally Reported"
+    }, {
+      "name" : "Regional Manager",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Regional Manager"
+    }, {
+      "name" : "Entity Parent",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Entity Parent"
+    }, {
+      "name" : "Campus",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Campus"
+    }, {
+      "name" : "Director",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Director"
+    }, {
+      "name" : "Real Estate Manager",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Real Estate Manager"
+    }, {
+      "name" : "Assistant Rem",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Assistant Rem"
+    }, {
+      "name" : "Property Assistant",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Property Assistant"
+    }, {
+      "name" : "Site Code",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Site Code"
+    }, {
+      "name" : "Formally Known As Site Code",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Formally Known As Site Code"
+    }, {
+      "name" : "Asset Manager",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Asset Manager"
+    }, {
+      "name" : "Sap Warehouse Code",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Sap Warehouse Code"
+    }, {
+      "name" : "Geographic Division",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Geographic Division"
+    }, {
+      "name" : "Legal Entity Name",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Legal Entity Name"
+    }, {
+      "name" : "Reported Region",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Reported Region"
+    }, {
+      "name" : "Reported Market",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Reported Market"
+    }, {
+      "name" : "Locked",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Locked"
+    }, {
+      "name" : "Locked Timestamp",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Locked Timestamp"
+    }, {
+      "name" : "Snapshot Date",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Snapshot Date"
+    }, {
+      "name" : "Created On Dt",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Created On Dt"
+    }, {
+      "name" : "Changed On Dt",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Changed On Dt"
+    }, {
+      "name" : "Etl Update Dt",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Etl Update Dt"
+    }, {
+      "name" : "Etl Insert Dt",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Etl Insert Dt"
+    }, {
+      "name" : "Etl Proc Wid",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Etl Proc Wid"
+    }, {
+      "name" : "Datasource",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Datasource"
+    }, {
+      "name" : "Unit Type Src Key",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Unit Type Src Key"
+    }, {
+      "name" : "Unit Src Key",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Unit Src Key"
+    }, {
+      "name" : "Unit Type",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Unit Type"
+    }, {
+      "name" : "Unit",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Unit"
+    }, {
+      "name" : "Unit Desc",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Unit Desc"
+    }, {
+      "name" : "Unit Status",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Unit Status"
+    }, {
+      "name" : "Master Site Code",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Master Site Code"
+    }, {
+      "name" : "Legacy Src Key",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Legacy Src Key"
+    }, {
+      "name" : "Snapshot Period",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Snapshot Period"
+    }, {
+      "name" : "Adjustment Comment",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Adjustment Comment"
+    }, {
+      "name" : "Updated By",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Updated By"
+    }, {
+      "name" : "Metro",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Metro"
+    }, {
+      "name" : "Golden Suite",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Golden Suite"
+    }, {
+      "name" : "Standalone Campus",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Standalone Campus"
+    }, {
+      "name" : "Leasing Status",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Leasing Status"
+    }, {
+      "name" : "Cage",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Cage"
+    }, {
+      "name" : "Joint Venture",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Joint Venture"
+    }, {
+      "name" : "Partner",
+      "sourceLogicalColumn" : "logicalColumn:DW.Property.Partner"
+    } ]
+  }
+}

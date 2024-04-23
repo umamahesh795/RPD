@@ -1,0 +1,2301 @@
+{
+  "logicalTable" : {
+    "name" : "Lease Activity",
+    "type" : "FACT",
+    "logicalColumns" : [ {
+      "name" : "Row Wid",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ROW_WID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Customer Wid",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.CUSTOMER_WID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Property Wid",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.PROPERTY_WID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Opportunity Wid",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.OPPORTUNITY_WID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Lease Activity Wid",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.LEASE_ACTIVITY_WID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Lease Reporting Type",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.LEASE_REPORTING_TYPE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Signed Period Date Wid",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.SIGNED_PERIOD_DATE_WID" ]
+          }
+        } ]
+      },
+      "aggregation" : {
+        "rule" : "NONE",
+        "dataIsDense" : false
+      }
+    }, {
+      "name" : "Reported Period Date Wid",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.REPORTED_PERIOD_DATE_WID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Commencement Period Date Wid",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.COMMENCEMENT_PERIOD_DATE_WID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Contractual Total Rent",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.CONTRACTUAL_TOTAL_RENT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Contractual Gaap Rent",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.CONTRACTUAL_GAAP_RENT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Total Rent",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.TOTAL_RENT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Monthly Gaap Rent",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.MONTHLY_GAAP_RENT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Expiring Last Year",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.EXPIRING_LAST_YEAR" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Term",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.TERM" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Kw",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.KW" ]
+          }
+        } ]
+      },
+      "aggregation" : {
+        "rule" : "SUM",
+        "dataIsDense" : false
+      }
+    }, {
+      "name" : "Nrsf",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.NRSF" ]
+          }
+        } ]
+      },
+      "aggregation" : {
+        "rule" : "SUM",
+        "dataIsDense" : false
+      }
+    }, {
+      "name" : "Contractual Term",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.CONTRACTUAL_TERM" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Rsf",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.RSF" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Incremental Gaap Annual Revenue",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.INCREMENTAL_GAAP_ANNUAL_REVENUE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Cash Rent Expiring Last Year",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.CASH_RENT_EXPIRING_LAST_YEAR" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Avg Rent Escalation",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.AVG_RENT_ESCALATION" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Landlord Work",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.LANDLORD_WORK" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Installation Fees",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.INSTALLATION_FEES" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Tenant Improvements",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.TENANT_IMPROVEMENTS" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Prior Gaap Rent",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.PRIOR_GAAP_RENT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Prior Last Year Cash Rent",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.PRIOR_LAST_YEAR_CASH_RENT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Contractual Incremental Rent",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.CONTRACTUAL_INCREMENTAL_RENT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Expiring Gaap Rent",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.EXPIRING_GAAP_RENT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Second Year Revenue",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.SECOND_YEAR_REVENUE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "First Year Revenue",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.FIRST_YEAR_REVENUE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Tenant Broker Commission",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.TENANT_BROKER_COMMISSION" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Landlord Broker Commission",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.LANDLORD_BROKER_COMMISSION" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Referring Agent Commission",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.REFERRING_AGENT_COMMISSION" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Stabilized First Year Cash Rent",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.STABILIZED_FIRST_YEAR_CASH_RENT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Actual First Year Cash",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ACTUAL_FIRST_YEAR_CASH" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Free Rent",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.FREE_RENT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Opex Equivalent",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.OPEX_EQUIVALENT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Cross Connect Count",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.CROSS_CONNECT_COUNT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Cross Connect Discount",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.CROSS_CONNECT_DISCOUNT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Net Effective Yield",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.NET_EFFECTIVE_YIELD" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Average Yield",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.AVERAGE_YIELD" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Stabilized Yield",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.STABILIZED_YIELD" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Investment Basis",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.INVESTMENT_BASIS" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Telx Case Number",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.TELX_CASE_NUMBER" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Opportunity Amount Native",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.OPPORTUNITY_AMOUNT_NATIVE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Opportunity Amount Usd",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.OPPORTUNITY_AMOUNT_USD" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Total Contractual Kw Commitment",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.TOTAL_CONTRACTUAL_KW_COMMITMENT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Total Internal Commissions",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.TOTAL_INTERNAL_COMMISSIONS" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Total External Commissions",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.TOTAL_EXTERNAL_COMMISSIONS" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Total Lease Cost",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.TOTAL_LEASE_COST" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Lock Flag",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.LOCK_FLAG" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Lock Timestamp",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.LOCK_TIMESTAMP" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Created On Dt",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.CREATED_ON_DT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Changed On Dt",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.CHANGED_ON_DT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Etl Update Dt",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ETL_UPDATE_DT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Etl Insert Dt",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ETL_INSERT_DT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Etl Proc Wid",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ETL_PROC_WID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Datasource",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.DATASOURCE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Id",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Snapshot Period",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.SNAPSHOT_PERIOD" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Legacy Src Key",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.LEGACY_SRC_KEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Product Wid",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.PRODUCT_WID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Updated By",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.UPDATED_BY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Adjustment Comment",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ADJUSTMENT_COMMENT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Product Hierarchy Wid",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.PRODUCT_HIERARCHY_WID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Term By Nrsf",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.TERM_BY_NRSF" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Opex Per Nrsf",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.OPEX_PER_NRSF" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Opex By Nrsf",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.OPEX_BY_NRSF" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Absolute Nrsf",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ABSOLUTE_NRSF" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Annualized Free Rent",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ANNUALIZED_FREE_RENT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Annualized Free Rent Psf",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ANNUALIZED_FREE_RENT_PSF" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Annualized Gaap Rent Usd",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ANNUALIZED_GAAP_RENT_USD" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Annualized Gaap Rent Usd Psf",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ANNUALIZED_GAAP_RENT_USD_PSF" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Annualized Opex Psf",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ANNUALIZED_OPEX_PSF" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Potential Rent",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.POTENTIAL_RENT" ]
+          }
+        } ]
+      },
+      "aggregation" : {
+        "rule" : "NONE",
+        "dataIsDense" : false
+      }
+    }, {
+      "name" : "Annualized Potential Rent",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ANNUALIZED_POTENTIAL_RENT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Annualized Potential Rent Psf",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ANNUALIZED_POTENTIAL_RENT_PSF" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Annualized Tenant Improvements",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ANNUALIZED_TENANT_IMPROVEMENTS" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Annualized Ti",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ANNUALIZED_TI" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Annualized Ti Psf",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ANNUALIZED_TI_PSF" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Annualized Total Commission",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ANNUALIZED_TOTAL_COMMISSION" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Annualized Total Commission Psf",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ANNUALIZED_TOTAL_COMMISSION_PSF" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Annualized Total Lease Costs",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ANNUALIZED_TOTAL_LEASE_COSTS" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Annualized Gaap Rent Usd Native",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ANNUALIZED_GAAP_RENT_USD_NATIVE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Contractual Gaap Rent Per Kw",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.CONTRACTUAL_GAAP_RENT_PER_KW" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Contractual Gaap Rent Psf",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.CONTRACTUAL_GAAP_RENT_PSF" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Expiring Cash Rent Psf",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.EXPIRING_CASH_RENT_PSF" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Expiring Gaap Rent Psf",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.EXPIRING_GAAP_RENT_PSF" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Expiring Monthly Gaap Per Kw",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.EXPIRING_MONTHLY_GAAP_PER_KW" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "External Commissions",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.EXTERNAL_COMMISSIONS" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Gaap Rent Change Percent",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.GAAP_RENT_CHANGE_PERCENT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Gaap Rent Vs Cash Rent",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.GAAP_RENT_VS_CASH_RENT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Gross Net Rent",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.GROSS_NET_RENT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Lease Costs Psf",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.LEASE_COSTS_PSF" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Load Factor",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.LOAD_FACTOR" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Monthly Gaap Rent Per Kw",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.MONTHLY_GAAP_RENT_PER_KW" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Net Effective Rent",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.NET_EFFECTIVE_RENT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Stabilized First Year Cash Rent Psf",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.STABILIZED_FIRST_YEAR_CASH_RENT_PSF" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Total Commission",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.TOTAL_COMMISSION" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Total Commission Per Psf",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.TOTAL_COMMISSION_PER_PSF" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Weighted Annualized Term By Sqft",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.WEIGHTED_ANNUALIZED_TERM_BY_SQFT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Weighted Annualized Term By Sqft Years",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.WEIGHTED_ANNUALIZED_TERM_BY_SQFT_YEARS" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Opex Per Kw",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.OPEX_PER_KW" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Opex Less Utilities Per Kw",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.OPEX_LESS_UTILITIES_PER_KW" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Sales Director Commission",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.SALES_DIRECTOR_COMMISSION" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Vp Sales Commission",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.VP_SALES_COMMISSION" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Svp Sales Commission",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.SVP_SALES_COMMISSION" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Partner Broker Commision",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.PARTNER_BROKER_COMMISION" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Colo Manager Commission",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.COLO_MANAGER_COMMISSION" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Monthly Opex On Kw",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.MONTHLY_OPEX_ON_KW" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Monthly Opex Less Utilities On Kw",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.MONTHLY_OPEX_LESS_UTILITIES_ON_KW" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Annualized Opex On Kw",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ANNUALIZED_OPEX_ON_KW" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Annualized Opex On Nrsf",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ANNUALIZED_OPEX_ON_NRSF" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Annualized Net Rent On Kw",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ANNUALIZED_NET_RENT_ON_KW" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Monthly Net Rent On Kw",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.MONTHLY_NET_RENT_ON_KW" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Annualized Net Rent Less Utilities On Kw",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ANNUALIZED_NET_RENT_LESS_UTILITIES_ON_KW" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Monthly Net Rent Less Utilities On Kw",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.MONTHLY_NET_RENT_LESS_UTILITIES_ON_KW" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Annualized Net Rent On Sq Ft",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "LOGICAL_COLUMNS",
+        "logicalExpression" : {
+          "expressionTemplate" : "%1  * 12",
+          "expressionObjects" : [ "logicalColumn:DW.Lease Activity.Term" ]
+        }
+      }
+    }, {
+      "name" : "Annualized Net Rent Pkw",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ANNUALIZED_NET_RENT_PKW" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Annualized Net Rent Psf",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ANNUALIZED_NET_RENT_PSF" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Annualized Net Effective Rent On Kw",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ANNUALIZED_NET_EFFECTIVE_RENT_ON_KW" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Monthly Net Effective Rent On Kw",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.MONTHLY_NET_EFFECTIVE_RENT_ON_KW" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Annualized Net Effective Rent On Sq Ft",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ANNUALIZED_NET_EFFECTIVE_RENT_ON_SQ_FT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Net Effective Rent Pkw",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.NET_EFFECTIVE_RENT_PKW" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Net Effective Rent Psf",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.NET_EFFECTIVE_RENT_PSF" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Annualized Gaap Rent Vs Stabilized First Year Cash",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ANNUALIZED_GAAP_RENT_VS_STABILIZED_FIRST_YEAR_CASH" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Cash Rent Change Percent",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.CASH_RENT_CHANGE_PERCENT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Days Commencing Lag",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.DAYS_COMMENCING_LAG" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Kw Group1",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.KW_GROUP1" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Kw Grouping",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.KW_GROUPING" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Kw Tranche",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.KW_TRANCHE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Period Kw",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.PERIOD_KW" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Total Ti And Landlordwork",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.TOTAL_TI_AND_LANDLORDWORK" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Gaap Rent Opp Variance",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.GAAP_RENT_OPP_VARIANCE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Status",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.STATUS" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Monthly Recurring Revenue  C",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.MONTHLY_RECURRING_REVENUE__C" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Account Name  C",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ACCOUNT_NAME__C" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Partnercommission  C",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.PARTNERCOMMISSION__C" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Space Mrr  C",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.SPACE_MRR__C" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Power Mrr  C",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.POWER_MRR__C" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Digital Procuring",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.DIGITAL_PROCURING" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Tenant Broker Fee  C",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.TENANT_BROKER_FEE__C" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Account Agency Type  C",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ACCOUNT_AGENCY_TYPE__C" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Sm Product Wid",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.SM_PRODUCT_WID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Source Sm Product Wid",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.SOURCE_SM_PRODUCT_WID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Replacement Flag",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.REPLACEMENT_FLAG" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Tenant Broker Percentage",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.TENANT_BROKER_PERCENTAGE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Fixed Or Cpi Floor  C",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.FIXED_OR_CPI_FLOOR__C" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Cpi Cap Percent  C",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.CPI_CAP_PERCENT__C" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Annualized Gaap Rent Asset Native",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ANNUALIZED_GAAP_RENT_ASSET_NATIVE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Annualized Gaap Rent Constant",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.ANNUALIZED_GAAP_RENT_CONSTANT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Stabilized First Year Cash Rent Asset Native",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.STABILIZED_FIRST_YEAR_CASH_RENT_ASSET_NATIVE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Stabilized First Year Cash Rent Constant",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.STABILIZED_FIRST_YEAR_CASH_RENT_CONSTANT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Expiring Gaap Rent Asset Native",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.EXPIRING_GAAP_RENT_ASSET_NATIVE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Expiring Gaap Rent Constant",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.EXPIRING_GAAP_RENT_CONSTANT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Expiring Last Year Asset Native",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.EXPIRING_LAST_YEAR_ASSET_NATIVE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Expiring Last Year Constant",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.EXPIRING_LAST_YEAR_CONSTANT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Constant Exchange Rate",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.CONSTANT_EXCHANGE_RATE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Raised Sf  C Assetid",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact - Lease Activity",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.RAISED_SF__C_ASSETID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Total",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "LOGICAL_COLUMNS",
+        "logicalExpression" : {
+          "expressionTemplate" : "%1 + %2",
+          "expressionObjects" : [ "logicalColumn:DW.Lease Activity.Annualized Gaap Rent Usd", "logicalColumn:DW.Lease Activity.Annualized Gaap Rent Usd Native" ]
+        }
+      },
+      "aggregation" : {
+        "rule" : "SUM",
+        "dataIsDense" : false
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "Fact - Lease Activity",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:Oracle DW.DW.Fact - Lease Activity" ]
+      },
+      "dataGranularity" : [ "logicalLevel:DW.Property.Detail", "logicalLevel:DW.Date.Detail" ],
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "dataFilter" : {
+        "expressionTemplate" : "%1='FNT'",
+        "expressionObjects" : [ "physicalColumn:Oracle DW.DW.Fact - Lease Activity.DATASOURCE" ]
+      },
+      "distinctValues" : false
+    } ],
+    "joins" : [ {
+      "rightTable" : "logicalTable:DW.Property",
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "drivingTable" : "None"
+    }, {
+      "rightTable" : "logicalTable:DW.Date",
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "drivingTable" : "None"
+    } ]
+  }
+}

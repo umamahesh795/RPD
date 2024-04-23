@@ -1,0 +1,21 @@
+{
+  "initBlock" : {
+    "name" : "IB_DATE",
+    "type" : "GLOBAL",
+    "connectionPool" : "connectionPool:Oracle DW.Connection Pool",
+    "selectStatements" : [ {
+      "databaseType" : "DEFAULT",
+      "query" : "select YEAR AS CURRENT_YEAR from W_DATE_D"
+    } ],
+    "variables" : [ {
+      "name" : "CURRENT_YEAR",
+      "value" : "2024"
+    } ],
+    "runSchedule" : {
+      "interval" : 1,
+      "intervalUnit" : "HOURS",
+      "startingOn" : "2024-04-23 13:35:22.023"
+    },
+    "disable" : false
+  }
+}

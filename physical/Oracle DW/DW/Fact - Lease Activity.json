@@ -1,0 +1,26 @@
+{
+  "physicalTable" : {
+    "name" : "Fact - Lease Activity",
+    "sourceTable" : "physicalTable:Oracle DW.DW.VW_LEASE_ACTIVITY_F",
+    "overrideSourceCacheSetting" : false,
+    "joins" : [ {
+      "rightTable" : "physicalTable:Oracle DW.DW.Dim-Property",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Oracle DW.DW.Fact - Lease Activity.PROPERTY_WID",
+        "rightColumn" : "physicalColumn:Oracle DW.DW.Dim-Property.ROW_WID"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    }, {
+      "rightTable" : "physicalTable:Oracle DW.DW.Dim - Date",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:Oracle DW.DW.Fact - Lease Activity.COMMENCEMENT_PERIOD_DATE_WID",
+        "rightColumn" : "physicalColumn:Oracle DW.DW.Dim - Date.ROW_WID"
+      } ],
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    } ]
+  }
+}

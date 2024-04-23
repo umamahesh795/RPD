@@ -1,0 +1,486 @@
+{
+  "presentationTable" : {
+    "name" : "LA",
+    "presentationColumns" : [ {
+      "name" : "Row Wid",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Row Wid"
+    }, {
+      "name" : "Customer Wid",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Customer Wid"
+    }, {
+      "name" : "Property Wid",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Property Wid"
+    }, {
+      "name" : "Opportunity Wid",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Opportunity Wid"
+    }, {
+      "name" : "Lease Activity Wid",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Lease Activity Wid"
+    }, {
+      "name" : "Lease Reporting Type",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Lease Reporting Type"
+    }, {
+      "name" : "Signed Period Date Wid",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Signed Period Date Wid"
+    }, {
+      "name" : "Reported Period Date Wid",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Reported Period Date Wid"
+    }, {
+      "name" : "Commencement Period Date Wid",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Commencement Period Date Wid"
+    }, {
+      "name" : "Contractual Total Rent",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Contractual Total Rent"
+    }, {
+      "name" : "Contractual Gaap Rent",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Contractual Gaap Rent"
+    }, {
+      "name" : "Total Rent",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Total Rent"
+    }, {
+      "name" : "Monthly Gaap Rent",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Monthly Gaap Rent"
+    }, {
+      "name" : "Expiring Last Year",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Expiring Last Year"
+    }, {
+      "name" : "Term",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Term"
+    }, {
+      "name" : "Kw",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Kw"
+    }, {
+      "name" : "Nrsf",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Nrsf"
+    }, {
+      "name" : "Contractual Term",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Contractual Term"
+    }, {
+      "name" : "Rsf",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Rsf"
+    }, {
+      "name" : "Incremental Gaap Annual Revenue",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Incremental Gaap Annual Revenue"
+    }, {
+      "name" : "Cash Rent Expiring Last Year",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Cash Rent Expiring Last Year"
+    }, {
+      "name" : "Avg Rent Escalation",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Avg Rent Escalation"
+    }, {
+      "name" : "Landlord Work",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Landlord Work"
+    }, {
+      "name" : "Installation Fees",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Installation Fees"
+    }, {
+      "name" : "Tenant Improvements",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Tenant Improvements"
+    }, {
+      "name" : "Prior Gaap Rent",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Prior Gaap Rent"
+    }, {
+      "name" : "Prior Last Year Cash Rent",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Prior Last Year Cash Rent"
+    }, {
+      "name" : "Contractual Incremental Rent",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Contractual Incremental Rent"
+    }, {
+      "name" : "Expiring Gaap Rent",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Expiring Gaap Rent"
+    }, {
+      "name" : "Second Year Revenue",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Second Year Revenue"
+    }, {
+      "name" : "First Year Revenue",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.First Year Revenue"
+    }, {
+      "name" : "Tenant Broker Commission",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Tenant Broker Commission"
+    }, {
+      "name" : "Landlord Broker Commission",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Landlord Broker Commission"
+    }, {
+      "name" : "Referring Agent Commission",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Referring Agent Commission"
+    }, {
+      "name" : "Stabilized First Year Cash Rent",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Stabilized First Year Cash Rent"
+    }, {
+      "name" : "Actual First Year Cash",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Actual First Year Cash"
+    }, {
+      "name" : "Free Rent",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Free Rent"
+    }, {
+      "name" : "Opex Equivalent",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Opex Equivalent"
+    }, {
+      "name" : "Cross Connect Count",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Cross Connect Count"
+    }, {
+      "name" : "Cross Connect Discount",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Cross Connect Discount"
+    }, {
+      "name" : "Net Effective Yield",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Net Effective Yield"
+    }, {
+      "name" : "Average Yield",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Average Yield"
+    }, {
+      "name" : "Stabilized Yield",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Stabilized Yield"
+    }, {
+      "name" : "Investment Basis",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Investment Basis"
+    }, {
+      "name" : "Telx Case Number",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Telx Case Number"
+    }, {
+      "name" : "Opportunity Amount Native",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Opportunity Amount Native"
+    }, {
+      "name" : "Opportunity Amount Usd",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Opportunity Amount Usd"
+    }, {
+      "name" : "Total Contractual Kw Commitment",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Total Contractual Kw Commitment"
+    }, {
+      "name" : "Total Internal Commissions",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Total Internal Commissions"
+    }, {
+      "name" : "Total External Commissions",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Total External Commissions"
+    }, {
+      "name" : "Total Lease Cost",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Total Lease Cost"
+    }, {
+      "name" : "Lock Flag",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Lock Flag"
+    }, {
+      "name" : "Lock Timestamp",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Lock Timestamp"
+    }, {
+      "name" : "Created On Dt",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Created On Dt"
+    }, {
+      "name" : "Changed On Dt",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Changed On Dt"
+    }, {
+      "name" : "Etl Update Dt",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Etl Update Dt"
+    }, {
+      "name" : "Etl Insert Dt",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Etl Insert Dt"
+    }, {
+      "name" : "Etl Proc Wid",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Etl Proc Wid"
+    }, {
+      "name" : "Datasource",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Datasource"
+    }, {
+      "name" : "Id",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Id"
+    }, {
+      "name" : "Snapshot Period",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Snapshot Period"
+    }, {
+      "name" : "Legacy Src Key",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Legacy Src Key"
+    }, {
+      "name" : "Product Wid",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Product Wid"
+    }, {
+      "name" : "Updated By",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Updated By"
+    }, {
+      "name" : "Adjustment Comment",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Adjustment Comment"
+    }, {
+      "name" : "Product Hierarchy Wid",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Product Hierarchy Wid"
+    }, {
+      "name" : "Term By Nrsf",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Term By Nrsf"
+    }, {
+      "name" : "Opex Per Nrsf",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Opex Per Nrsf"
+    }, {
+      "name" : "Opex By Nrsf",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Opex By Nrsf"
+    }, {
+      "name" : "Absolute Nrsf",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Absolute Nrsf"
+    }, {
+      "name" : "Annualized Free Rent",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Annualized Free Rent"
+    }, {
+      "name" : "Annualized Free Rent Psf",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Annualized Free Rent Psf"
+    }, {
+      "name" : "Annualized Gaap Rent Usd",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Annualized Gaap Rent Usd"
+    }, {
+      "name" : "Annualized Gaap Rent Usd Psf",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Annualized Gaap Rent Usd Psf"
+    }, {
+      "name" : "Annualized Opex Psf",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Annualized Opex Psf"
+    }, {
+      "name" : "Potential Rent",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Potential Rent"
+    }, {
+      "name" : "Annualized Potential Rent",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Annualized Potential Rent"
+    }, {
+      "name" : "Annualized Potential Rent Psf",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Annualized Potential Rent Psf"
+    }, {
+      "name" : "Annualized Tenant Improvements",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Annualized Tenant Improvements"
+    }, {
+      "name" : "Annualized Ti",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Annualized Ti"
+    }, {
+      "name" : "Annualized Ti Psf",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Annualized Ti Psf"
+    }, {
+      "name" : "Annualized Total Commission",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Annualized Total Commission"
+    }, {
+      "name" : "Annualized Total Commission Psf",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Annualized Total Commission Psf"
+    }, {
+      "name" : "Annualized Total Lease Costs",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Annualized Total Lease Costs"
+    }, {
+      "name" : "Annualized Gaap Rent Usd Native",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Annualized Gaap Rent Usd Native"
+    }, {
+      "name" : "Contractual Gaap Rent Per Kw",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Contractual Gaap Rent Per Kw"
+    }, {
+      "name" : "Contractual Gaap Rent Psf",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Contractual Gaap Rent Psf"
+    }, {
+      "name" : "Expiring Cash Rent Psf",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Expiring Cash Rent Psf"
+    }, {
+      "name" : "Expiring Gaap Rent Psf",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Expiring Gaap Rent Psf"
+    }, {
+      "name" : "Expiring Monthly Gaap Per Kw",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Expiring Monthly Gaap Per Kw"
+    }, {
+      "name" : "External Commissions",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.External Commissions"
+    }, {
+      "name" : "Gaap Rent Change Percent",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Gaap Rent Change Percent"
+    }, {
+      "name" : "Gaap Rent Vs Cash Rent",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Gaap Rent Vs Cash Rent"
+    }, {
+      "name" : "Gross Net Rent",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Gross Net Rent"
+    }, {
+      "name" : "Lease Costs Psf",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Lease Costs Psf"
+    }, {
+      "name" : "Load Factor",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Load Factor"
+    }, {
+      "name" : "Monthly Gaap Rent Per Kw",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Monthly Gaap Rent Per Kw"
+    }, {
+      "name" : "Net Effective Rent",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Net Effective Rent"
+    }, {
+      "name" : "Stabilized First Year Cash Rent Psf",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Stabilized First Year Cash Rent Psf"
+    }, {
+      "name" : "Total Commission",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Total Commission"
+    }, {
+      "name" : "Total Commission Per Psf",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Total Commission Per Psf"
+    }, {
+      "name" : "Weighted Annualized Term By Sqft",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Weighted Annualized Term By Sqft"
+    }, {
+      "name" : "Weighted Annualized Term By Sqft Years",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Weighted Annualized Term By Sqft Years"
+    }, {
+      "name" : "Opex Per Kw",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Opex Per Kw"
+    }, {
+      "name" : "Opex Less Utilities Per Kw",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Opex Less Utilities Per Kw"
+    }, {
+      "name" : "Sales Director Commission",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Sales Director Commission"
+    }, {
+      "name" : "Vp Sales Commission",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Vp Sales Commission"
+    }, {
+      "name" : "Svp Sales Commission",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Svp Sales Commission"
+    }, {
+      "name" : "Partner Broker Commision",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Partner Broker Commision"
+    }, {
+      "name" : "Colo Manager Commission",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Colo Manager Commission"
+    }, {
+      "name" : "Monthly Opex On Kw",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Monthly Opex On Kw"
+    }, {
+      "name" : "Monthly Opex Less Utilities On Kw",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Monthly Opex Less Utilities On Kw"
+    }, {
+      "name" : "Annualized Opex On Kw",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Annualized Opex On Kw"
+    }, {
+      "name" : "Annualized Opex On Nrsf",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Annualized Opex On Nrsf"
+    }, {
+      "name" : "Annualized Net Rent On Kw",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Annualized Net Rent On Kw"
+    }, {
+      "name" : "Monthly Net Rent On Kw",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Monthly Net Rent On Kw"
+    }, {
+      "name" : "Annualized Net Rent Less Utilities On Kw",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Annualized Net Rent Less Utilities On Kw"
+    }, {
+      "name" : "Monthly Net Rent Less Utilities On Kw",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Monthly Net Rent Less Utilities On Kw"
+    }, {
+      "name" : "Annualized Net Rent On Sq Ft",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Annualized Net Rent On Sq Ft"
+    }, {
+      "name" : "Annualized Net Rent Pkw",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Annualized Net Rent Pkw"
+    }, {
+      "name" : "Annualized Net Rent Psf",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Annualized Net Rent Psf"
+    }, {
+      "name" : "Annualized Net Effective Rent On Kw",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Annualized Net Effective Rent On Kw"
+    }, {
+      "name" : "Monthly Net Effective Rent On Kw",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Monthly Net Effective Rent On Kw"
+    }, {
+      "name" : "Annualized Net Effective Rent On Sq Ft",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Annualized Net Effective Rent On Sq Ft"
+    }, {
+      "name" : "Net Effective Rent Pkw",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Net Effective Rent Pkw"
+    }, {
+      "name" : "Net Effective Rent Psf",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Net Effective Rent Psf"
+    }, {
+      "name" : "Annualized Gaap Rent Vs Stabilized First Year Cash",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Annualized Gaap Rent Vs Stabilized First Year Cash"
+    }, {
+      "name" : "Cash Rent Change Percent",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Cash Rent Change Percent"
+    }, {
+      "name" : "Days Commencing Lag",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Days Commencing Lag"
+    }, {
+      "name" : "Kw Group1",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Kw Group1"
+    }, {
+      "name" : "Kw Grouping",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Kw Grouping"
+    }, {
+      "name" : "Kw Tranche",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Kw Tranche"
+    }, {
+      "name" : "Period Kw",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Period Kw"
+    }, {
+      "name" : "Total Ti And Landlordwork",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Total Ti And Landlordwork"
+    }, {
+      "name" : "Gaap Rent Opp Variance",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Gaap Rent Opp Variance"
+    }, {
+      "name" : "Status",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Status"
+    }, {
+      "name" : "Monthly Recurring Revenue  C",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Monthly Recurring Revenue  C"
+    }, {
+      "name" : "Account Name  C",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Account Name  C"
+    }, {
+      "name" : "Partnercommission  C",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Partnercommission  C"
+    }, {
+      "name" : "Space Mrr  C",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Space Mrr  C"
+    }, {
+      "name" : "Power Mrr  C",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Power Mrr  C"
+    }, {
+      "name" : "Digital Procuring",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Digital Procuring"
+    }, {
+      "name" : "Tenant Broker Fee  C",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Tenant Broker Fee  C"
+    }, {
+      "name" : "Account Agency Type  C",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Account Agency Type  C"
+    }, {
+      "name" : "Sm Product Wid",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Sm Product Wid"
+    }, {
+      "name" : "Source Sm Product Wid",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Source Sm Product Wid"
+    }, {
+      "name" : "Replacement Flag",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Replacement Flag"
+    }, {
+      "name" : "Tenant Broker Percentage",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Tenant Broker Percentage"
+    }, {
+      "name" : "Fixed Or Cpi Floor  C",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Fixed Or Cpi Floor  C"
+    }, {
+      "name" : "Cpi Cap Percent  C",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Cpi Cap Percent  C"
+    }, {
+      "name" : "Annualized Gaap Rent Asset Native",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Annualized Gaap Rent Asset Native"
+    }, {
+      "name" : "Annualized Gaap Rent Constant",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Annualized Gaap Rent Constant"
+    }, {
+      "name" : "Stabilized First Year Cash Rent Asset Native",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Stabilized First Year Cash Rent Asset Native"
+    }, {
+      "name" : "Stabilized First Year Cash Rent Constant",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Stabilized First Year Cash Rent Constant"
+    }, {
+      "name" : "Expiring Gaap Rent Asset Native",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Expiring Gaap Rent Asset Native"
+    }, {
+      "name" : "Expiring Gaap Rent Constant",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Expiring Gaap Rent Constant"
+    }, {
+      "name" : "Expiring Last Year Asset Native",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Expiring Last Year Asset Native"
+    }, {
+      "name" : "Expiring Last Year Constant",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Expiring Last Year Constant"
+    }, {
+      "name" : "Constant Exchange Rate",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Constant Exchange Rate"
+    }, {
+      "name" : "Raised Sf  C Assetid",
+      "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Raised Sf  C Assetid"
+    } ]
+  }
+}
