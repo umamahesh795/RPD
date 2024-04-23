@@ -6,8 +6,6 @@
       "name" : "presentationTable:Lease Activity.LA"
     }, {
       "name" : "presentationTable:Lease Activity.Property"
-    }, {
-      "name" : "presentationTable:Lease Activity.Date"
     } ]
   }
 }
