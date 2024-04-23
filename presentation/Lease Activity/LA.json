@@ -2,7 +2,7 @@
   "presentationTable" : {
     "name" : "LA",
     "presentationColumns" : [ {
-      "name" : "Row Wid",
+      "name" : "Row WID",
       "sourceLogicalColumn" : "logicalColumn:DW.Lease Activity.Row Wid"
     }, {
       "name" : "Customer WID",
